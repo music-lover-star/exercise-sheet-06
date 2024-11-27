@@ -14,7 +14,7 @@ public class UnsurmountableStepException extends Exception {
 	}
 
 	/**
-	 * Constructs an ClimbingAbortedException with the specified detail message and cause.
+	 * Constructs an UnsurmountableStepException with the specified detail message and cause.
 	 *
 	 * @param message details about the abortion.
 	 * @param cause cause of this abortion.

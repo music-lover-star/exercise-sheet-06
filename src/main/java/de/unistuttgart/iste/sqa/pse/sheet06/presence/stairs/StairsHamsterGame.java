@@ -38,7 +38,7 @@ public class StairsHamsterGame extends SimpleHamsterGame {
 	 * @throws UnsurmountableStepException
 	 */
 	private void movePauleToNextStep() throws UnsurmountableStepException {
-		// TODO implement 4 (a) here
+		// TODO implement 3 (a) here
 	}
 
 	/**
@@ -47,7 +47,7 @@ public class StairsHamsterGame extends SimpleHamsterGame {
 	 * @return
 	 */
 	private boolean hasReachedTop() {
-		// TODO implement 4 (b) here
+		// TODO implement 3 (b) here
 		return true; // TODO replace this line with your implementation
 	}
 
@@ -55,7 +55,7 @@ public class StairsHamsterGame extends SimpleHamsterGame {
 	 * TODO Write JavaDoc here
 	 */
 	private void climbStairs() {
-		// TODO adapt or remove these lines to implement 4 (c)
+		// TODO adapt or remove these lines to implement 3 (c)
 		try {
 			movePauleToNextStep();
 		} catch (UnsurmountableStepException e) {
