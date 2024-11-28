@@ -38,7 +38,15 @@ public class StairsHamsterGame extends SimpleHamsterGame {
 	 * @throws UnsurmountableStepException
 	 */
 	private void movePauleToNextStep() throws UnsurmountableStepException {
-		// TODO implement 3 (a) here
+	  paule.turnLeft();
+	  paule.move();
+	  paule.turnLeft();
+	  paule.turnLeft();
+	  paule.turnLeft();
+	  paule.move();
+	  if(frontIsClear()){
+	  }else 
+	throw new StairsTooHighException();	 
 	}
 
 	/**
